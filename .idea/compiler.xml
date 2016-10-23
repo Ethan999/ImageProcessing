@@ -25,7 +25,7 @@
         <module name="ImageProcessing" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="ImageProcessing" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -28,8 +28,9 @@ import java.util.Iterator;
  */
 public class NinePhotoGenerator {
 
+    public static String srcImageFile = ClassLoader.getSystemResource("").getFile() + "\\image\\ninePhoto\\nine.jpg";
+
     public static void main(String[] args) throws IOException {
-        String srcImageFile = "D:\\nine.jpg"; // 原图位置
         String generatorFile = "D:\\"; // 图片生成文件夹
 
         // 裁剪图片并覆盖掉原图
